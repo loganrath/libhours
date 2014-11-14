@@ -6,14 +6,15 @@
     "title": "7:45am - 1:30am",
     "start": "2014-11-17",
     "end": "2014-11-21",
-    
+    "backgroundColor": "#00533e !important"
   },
   {
     "id": "500", //Friday 
     "allDay": true,
     "title": "7:45am - 5pm",
     "start": "2014-11-21",
-    "end": "2014-11-22"
+    "end": "2014-11-22",
+    "backgroundColor": "#00533e !important"
   },
   {
     "id": "600", //Saturday
