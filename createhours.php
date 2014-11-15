@@ -1,7 +1,16 @@
 <?php
 
-$date = '2014-11-01';
-while ($date <= '2014-12-31') {
+####################################
+##### Begin Configuration ##########
+# Start date of string to populate #
+$date = '2014-11-01'; 
+## End date of string to populate ##
+$end_date = '2014-12-31'; 
+######  End Configuration ##########
+####################################
+
+
+while ($date <= $end_date) {
 	echo rtrim(makeJSON($date), ",");
 	$date = date('Y-m-d', strtotime($date . ' + 1 day'));
 }
