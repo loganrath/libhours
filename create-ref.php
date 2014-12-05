@@ -21,7 +21,7 @@ return '
 "start": "'.$refstart.'",
 "end": "'.$refend.'",
 "borderColor": "white",
-"backgroundColor": "#8da09f !important;"
+"backgroundColor": "#5BC0DE !important;"
 },';
 }
 ?>
