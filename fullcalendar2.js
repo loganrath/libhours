@@ -15,7 +15,7 @@ columnFormat: {
             defaultView: 'basicWeek',
             minTime: '09:00:00',
             nextDayThreshold: '09:00:00',
-			events: 'libhours.json'
+	    events: 'libhours.json',
 		});
 
 $(".fc-week").css("cssText", "height: 200px !important;");		
