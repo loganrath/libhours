@@ -26,7 +26,7 @@ $w = date('w', strtotime($date));
 elseif ($w==0) {$libhours = '12pm - 1:30am'; $bg='#597A35 !important';}
 elseif ($w==6) {$libhours = '12pm - 8pm'; $bg='#597A35 !important';}
 else {$libhours = '7:45am - 1:30am'; $bg='#597A35 !important';}
-if ($bg ="#597A35 !important"){$tc = "white !important";} else {$tc = "black";}
+if ($bg == "#597A35 !important"){$tc = "white !important";} else {$tc = "black";}
 return '
 {
 "allDay": true,
