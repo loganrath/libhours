@@ -18,6 +18,7 @@ $w = date('w', strtotime($date));
 	elseif ($date >= '2015-03-16' && $date <= '2015-03-20') {$libhours = "8am - 4pm"; $bg='#5cb85c !important';}
 	elseif ($date == '2015-03-22') {$libhours = "6pm - 1:30am"; $bg='#5cb85c !important'}
 	elseif ($w==0) {$libhours = '12pm - 1:30am'; $bg='#5cb85c !important';}
+	elseif ($w==5) {$libhours = '7:45am - 5pm'; $bg ='#5cb85c !important';}
 elseif ($w==6) {$libhours = '12pm - 8pm'; $bg='#5cb85c !important';}
 else {$libhours = '7:45am - 1:30am'; $bg='#5cb85c !important';}
 return '
