@@ -13,11 +13,12 @@ $date = date('Y-m-d', strtotime($date . ' + 1 day'));
 }
 function makeJSON($date) {
 $w = date('w', strtotime($date));
-if ($w==0 || $w==6) {$refstart = $date.'T12:00:00'; $refend = $date.'T18:00:00';}
-else {$refstart = $date.'T10:00:00'; $refend = $date.'T20:00:00';}
+if ($w==0) {$refstart = $date.'T12:00:00'; $refend = $date.'T20:00:00';}
+elseif ($w==6) {$refstart = $date.'T14:00:00'; $refend = $date.'T18:00:00';}
+else {$refstart = $date.'T08:00:00'; $refend = $date.'T20:00:00';}
 return '
 {
-"title": "Research Help",
+"title": "IT Desk",
 "start": "'.$refstart.'",
 "end": "'.$refend.'",
 "borderColor": "white",
