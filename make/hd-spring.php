@@ -4,11 +4,11 @@
 # Start date of string to populate #
 $date = '2015-01-26';
 ## End date of string to populate ##
-$end_date = '2014-12-31';
+$end_date = '2015-05-14';
 ###### End Configuration ##########
 ####################################
 while ($date <= $end_date) {
-echo makeJSON($date), ",";
+echo makeJSON($date);
 $date = date('Y-m-d', strtotime($date . ' + 1 day'));
 }
 function makeJSON($date) {
